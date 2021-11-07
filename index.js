@@ -121,7 +121,7 @@
  
              let content_embed = new MessageEmbed()
                  .setColor("GREEN")
-                 .setFooter(message.author.username, message.author.displayAvatarURL({
+                 .setFooter(message.author.id, message.author.displayAvatarURL({
                      dynamic: true
                  }))
                  .setDescription(translate("system.DETAILS_EMBED.DESCRIPTION", { content: message.content }))
